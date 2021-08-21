@@ -1,0 +1,3 @@
+SELECT * FROM `dataMarseille` WHERE (`valid` BETWEEN '2013-01-03 00:00 'AND '2013-01-03 01:30')
+
+ dt = datetime.datetime.fromtimestamp(unix_time).strftime("%Y-%m-%d %H:%M:%S") die omzetten naar uren en minuten uren - 2
